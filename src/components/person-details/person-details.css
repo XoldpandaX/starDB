@@ -5,6 +5,11 @@
   padding: 1rem;
 }
 
+.person-details--loading {
+  display: flex;
+  justify-content: center;
+}
+
 .person-details .person-image {
   width: 30%;
   height: 30%;

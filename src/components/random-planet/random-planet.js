@@ -8,11 +8,10 @@ import Spinner from '../spinner';
 import './random-planet.css';
 
 export default class RandomPlanet extends Component {
-  
   swapiService = new SwapiService();
   
   state = {
-    planet: {},
+    planet: null,
     loading: true,
     error: false
   };

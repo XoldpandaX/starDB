@@ -8,7 +8,15 @@ import RandomPlanet from '../random-planet';
 import './app.css';
 
 export default class App extends Component {
+  state = {
+    selectedPersonId: null
+  };
+  
+  changeSelectedPerson = (id) => this.setState({ selectedPersonId: id });
+  
   render() {
+    const { selectedPersonId } = this.state;
+    
     return (
       <div className='app-container'>
         <Header />
@@ -16,10 +24,10 @@ export default class App extends Component {
         
         <div className="row mb2">
           <div className="col-md-6">
-            <ItemList />
+            <ItemList onPersonSelected={ this.changeSelectedPerson } />
           </div>
           <div className="col-md-6">
-            <PersonDetails />
+            <PersonDetails personId={ selectedPersonId }/>
           </div>
         </div>
       </div>
