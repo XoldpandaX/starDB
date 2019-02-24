@@ -4,6 +4,10 @@
   padding: 1rem;
 }
 
+.random-planet--loading {
+  justify-content: center;
+}
+
 .random-planet__info {
   width: 100%;
 }

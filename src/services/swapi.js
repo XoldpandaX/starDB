@@ -2,15 +2,22 @@ export default class SwapiService {
   _apiBaseUrl = 'https://swapi.co/api/';
   
   async getResource(url) {
-    const response = await fetch(`${ this._apiBaseUrl }${ url }`);
-    
-    if (!response.ok) {
-      throw new Error(`could not fetch ${ url }, recieved ${ response.status }`);
+    try {
+      const response = await fetch(`${ this._apiBaseUrl }${ url }`);
+      const res = await response.json();
+  
+      if (!response.ok) {
+        throw new Error(`could not fetch ${ url }, recieved ${ response.status }`);
+      }
+  
+      return res;
+    } catch (e) {
+      console.error(
+        `getResource: ${ url }
+        could not fetch ${url}, recieved ${e.status}
+        `,
+        e);
     }
-    
-    const res = await response.json();
-    
-    return res;
   }
   
   _extractId(itemUrl) {
@@ -74,7 +81,7 @@ export default class SwapiService {
   
   async getAllStarships() {
     const { results } = await this.getResource('starships');
-    return results.map((starship) => this._starShipMapper(starship));
+    return results.map((starsShip) => this._starShipMapper(starsShip));
   }
   
   async getStarship(id) {
@@ -82,3 +89,4 @@ export default class SwapiService {
     return this._starShipMapper(starShip);
   }
 }
+

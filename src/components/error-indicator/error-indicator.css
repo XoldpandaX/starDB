@@ -1,0 +1,23 @@
+.error-indicator {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.error-indicator p {
+  margin-bottom: .2rem;
+  font-style: italic;
+}
+
+.error-indicator img {
+  width: 20%;
+  margin-bottom: 1.5rem;
+  height: auto;
+  filter: invert(1);
+}
+
+.boom {
+  font-weight: bold;
+}
