@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2674ad28-1658-4dc5-a7bd-0a5f20d069c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/error-button/error-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/planet-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/planet-page/planet-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/planet-page/planet-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/person-details.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,34 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/error-button/error-button.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="450">
+              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -50,15 +30,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/error-button/error-button.css">
+        <entry file="file://$PROJECT_DIR$/src/pages/people-page/people-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="30">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-894">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,14 +62,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/person-details/person-details.js" />
-        <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
         <option value="$PROJECT_DIR$/src/components/error-button/index.js" />
-        <option value="$PROJECT_DIR$/src/components/app/app.js" />
         <option value="$PROJECT_DIR$/src/components/error-button/error-button.css" />
+        <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
         <option value="$PROJECT_DIR$/src/components/error-button/error-button.js" />
+        <option value="$PROJECT_DIR$/src/pages/people-page/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/people-page/people-page.css" />
+        <option value="$PROJECT_DIR$/src/pages/people-page/people-page.js" />
+        <option value="$PROJECT_DIR$/src/components/person-details/person-details.js" />
+        <option value="$PROJECT_DIR$/src/components/app/app.js" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="24" />
@@ -115,13 +120,20 @@
               <item name="star-db" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="error-button" type="462c0819:PsiDirectoryNode" />
+              <item name="person-details" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
               <item name="star-db" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="star-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="people-page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,6 +151,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/planet-page" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,23 +182,22 @@
       <updated>1551091095829</updated>
       <workItem from="1551091101644" duration="1890000" />
       <workItem from="1551100783644" duration="1242000" />
-      <workItem from="1551269905363" duration="2205000" />
+      <workItem from="1551269905363" duration="6188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5337000" />
+    <option name="totallyTimeSpent" value="9320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="960" height="1056" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24479167" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.14126016" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.125" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
@@ -213,16 +230,6 @@
         <state relative-caret-position="-396" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -240,16 +247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/error-button/error-button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -257,20 +254,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/error-button/error-button.js">
+    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="375">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
+    <entry file="file://$PROJECT_DIR$/src/components/error-indicator/error-indicator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/error-button/error-button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/planet-page/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/people-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/people-page/people-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-column="13" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/pages/people-page/people-page.js</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/item-list/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/person-details/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/pages/people-page/people-page.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/pages/people-page/people-page.js#Component#16;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#ItemList#50;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#PersonDetails#101;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#React#7;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#people-page.css#156;</node>
+            <node x="" y="">$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts</node>
+            <node x="" y="">Component;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="261.0" y="199.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-894">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/people-page/people-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
