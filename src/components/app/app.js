@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import ErrorButton from '../error-button';
 import Header from '../header';
 import ItemList from '../item-list';
 import PersonDetails from '../person-details';
@@ -21,7 +22,11 @@ export default class App extends Component {
       <div className='app-container'>
         <Header />
         <RandomPlanet />
-        
+        <div className='row mb2'>
+          <div className='col-md-6 '>
+            <ErrorButton />
+          </div>
+        </div>
         <div className="row mb2">
           <div className="col-md-6">
             <ItemList onPersonSelected={ this.changeSelectedPerson } />
