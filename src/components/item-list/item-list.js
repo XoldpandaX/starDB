@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 
-import SwapiService from '../../services/swapi';
-
 import Spinner from '../spinner';
 
 import './item-list.css';
 
 export default class ItemList extends Component {
-  swapiService = new SwapiService();
   
   state = {
     persons: null,
@@ -15,12 +12,13 @@ export default class ItemList extends Component {
   };
   
   async componentDidMount() {
-    await this.fetchPersons();
+    const { getData } = this.props;
+    await this.fetchItems(getData);
   }
   
-  fetchPersons = async () => {
+  fetchItems = async (fetchMethod) => {
     try {
-      const persons = await this.swapiService.getAllPeople();
+      const persons = await fetchMethod();
       
       this.setPersons(persons);
     } catch (e) {
@@ -37,7 +35,7 @@ export default class ItemList extends Component {
     const { persons, loading } = this.state;
     const { onPersonSelected } = this.props;
     
-    const personsElements = () => {
+    const itemElements = () => {
       return persons.map(({ id, name }) => {
         return (
           <li
@@ -51,7 +49,7 @@ export default class ItemList extends Component {
       })
     };
     
-    const elements = !loading ? personsElements() : null;
+    const elements = !loading ? itemElements() : null;
     const loadingIndicator = loading ? <Spinner /> : null;
     
     return (

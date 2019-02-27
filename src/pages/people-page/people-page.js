@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import SwapiService from '../../services/swapi';
+
 import ErrorIndicator from '../../components/error-indicator';
 import ItemList from '../../components/item-list';
 import PersonDetails from '../../components/person-details';
@@ -7,6 +9,8 @@ import PersonDetails from '../../components/person-details';
 import './people-page.css';
 
 export default class PeoplePage extends Component {
+  swapiService = new SwapiService();
+  
   state = {
     selectedPersonId: 3,
     hasError: false
@@ -28,7 +32,10 @@ export default class PeoplePage extends Component {
     return (
       <div className="people-page row mb2">
         <div className="col-md-6">
-          <ItemList onPersonSelected={ this.changeSelectedPerson } />
+          <ItemList
+            onPersonSelected={ this.changeSelectedPerson }
+            getData={ this.swapiService.getAllPeople }
+          />
         </div>
         <div className="col-md-6">
           <PersonDetails personId={ selectedPersonId }/>

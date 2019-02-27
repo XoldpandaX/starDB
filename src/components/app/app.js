@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
 
+import SwapiService from '../../services/swapi';
+
+import ItemList from '../item-list';
 import ErrorButton from '../error-button';
 import ErrorIndicator from '../error-indicator';
 import Header from '../header';
 import RandomPlanet from '../random-planet';
-
 import PeoplePage from '../../pages/people-page';
 
 import './app.css';
 
 
 export default class App extends Component {
+  swapiService = new SwapiService();
+  
   state = {
     hasError: false
   };
   
   componentDidCatch(error, info) {
-    debugger;
     this.setState({ hasError: true });
   }
   
@@ -37,8 +40,22 @@ export default class App extends Component {
           </div>
         </div>
         <PeoplePage />
-        <PeoplePage />
-        <PeoplePage />
+        <div className="people-page row mt-5">
+          <div className="col-md-6">
+            <ItemList
+              onPersonSelected={ this.changeSelectedPerson }
+              getData={ this.swapiService.getAllPlanets }
+            />
+          </div>
+        </div>
+        <div className="people-page row mt-5">
+          <div className="col-md-6">
+            <ItemList
+              onPersonSelected={ this.changeSelectedPerson }
+              getData={ this.swapiService.getAllStarships }
+            />
+          </div>
+        </div>
       </div>
     );
   }
