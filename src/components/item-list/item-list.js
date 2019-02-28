@@ -33,12 +33,13 @@ export default class ItemList extends Component {
   
   render() {
     const { persons, loading } = this.state;
-    const { onPersonSelected, renderItem } = this.props;
+    const { onPersonSelected } = this.props;
+    const { children } = this.props;
     
     const itemElements = () => {
       return persons.map((item) => {
         const { id } = item;
-        const value = renderItem(item);
+        const value = children(item);
         
         return (
           <li
