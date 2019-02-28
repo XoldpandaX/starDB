@@ -1,69 +1,66 @@
 import React, { Component } from 'react';
 
-import SwapiService from '../../services/swapi';
-
 import ErrorButton from '../error-button';
 import Spinner from '../spinner';
 
-import './person-details.css';
+import './item-details.css';
 
-export default class PersonDetails extends Component {
-  swapiService = new SwapiService();
-  
+export default class ItemDetails extends Component {
   state = {
-    person: null,
+    item: null,
     loading: false
   };
   
   async componentDidMount() {
-    await this.updatePerson();
+    await this.updateItem();
   }
   
   async componentDidUpdate(prevProps) {
-    const { personId } = this.props;
+    const { itemId } = this.props;
     
-    if (personId !== prevProps.personId) {
-      await this.updatePerson(personId);
+    if (itemId !== prevProps.itemId) {
+      await this.updateItem(itemId);
     }
   }
   
-  updatePerson = async () => {
-    const { personId } = this.props;
+  updateItem = async () => {
+    const { itemId, getData } = this.props;
     
-    if (!personId) {
+    if (!itemId) {
       return;
     }
-    await this.fetchPerson(personId);
+    
+    await this.fetchItem(itemId, getData);
   };
   
-  fetchPerson = async (id) => {
+  fetchItem = async (id, fetchMethod) => {
     try {
       this.showLoadingIndicator();
       
-      const person = await this.swapiService.getPerson(id);
+      const item = await fetchMethod(id);
       
-      this.setPerson(person);
+      this.setItem(item);
     } catch (e) {
-      console.error('fetchPerson', e);
+      console.error('fetchItem', e);
     } finally {
       this.hideLoadingIndicator();
     }
   };
   
-  setPerson = (person) => this.setState({ person });
+  setItem = (item) => this.setState({ item });
   hideLoadingIndicator = () => this.setState({ loading: false });
   showLoadingIndicator = () => this.setState({ loading: true });
   
   render() {
-    const { person, loading } = this.state;
-    const hasContent = !loading && person !== null;
+    const { item, loading } = this.state;
+    const hasContent = !loading && item !== null;
     
-    const notSelectedMsg = !person && !loading && <span>Select a person from a list</span>;
-    const content = hasContent ? <PersonView person={ person } /> : null;
+    const notSelectedMsg = !item && !loading && <span>Select an item from a list</span>;
+    const content = hasContent ? <ItemView item={ item } /> : null;
     const spinner = loading ? <Spinner /> : null;
     
-    const baseClasses = 'person-details card';
-    const resultClasses = loading ? `${ baseClasses } person-details--loading` : baseClasses;
+    const baseClasses = 'item-details card';
+    const resultClasses = loading ? `${ baseClasses } item-details--loading` : baseClasses;
     
     return (
       <div className={ resultClasses }>
@@ -75,16 +72,16 @@ export default class PersonDetails extends Component {
   }
 }
 
-const PersonView = ({ person}) => {
-  const { id, name, gender, birthYear, eyeColor } = person;
+const ItemView = ({ item }) => {
+  const { id, name, gender, birthYear, eyeColor } = item;
   const imageUrl = id && `https://starwars-visualguide.com/assets/img/characters/${ id }.jpg`;
   
   return (
     <React.Fragment>
       <img
-        className="person-image"
+        className="item-image"
         src={ imageUrl }
-        alt='person'
+        alt='item'
       />
   
       <div className="card-body">

@@ -36,7 +36,7 @@ export default class App extends Component {
         <RandomPlanet />
         <div className='row mb2'>
           <div className='col-md-6 '>
-            <ErrorButton/>
+            <ErrorButton />
           </div>
         </div>
         <PeoplePage />
