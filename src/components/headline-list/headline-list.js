@@ -11,19 +11,21 @@ const HeadlineList = ({ item, title }) => {
       <h4>{ title }</h4>
       <ul className="list-group list-group-flush">
         {
-          itemValues.map(([key, value]) => {
-            const splitedKey = key.replace(/([A-Z])/g, ' $1').trim();
-            
-            return (
-              <li className="list-group-item"
-                  key={ id + key + value }
-              >
+          itemValues.map(([key, value], idx) => {
+            if (idx <= 3) {
+              const splitedKey = key.replace(/([A-Z])/g, ' $1').trim();
+  
+              return (
+                <li className="list-group-item"
+                    key={ id + key + value }
+                >
                 <span className="headline-list__term">
                   { splitedKey }
                 </span>
-                <span>{ value }</span>
-              </li>
-            );
+                  <span>{ value }</span>
+                </li>
+              );
+            }
           })
         }
       </ul>

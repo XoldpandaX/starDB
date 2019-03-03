@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import ErrorBoundary from '../error-boundary';
 import Spinner from '../spinner';
 
 const withData = (View, getData) => {
@@ -35,8 +37,10 @@ const withData = (View, getData) => {
       
       return (
         <React.Fragment>
-          { itemList }
           { loadingIndicator }
+          <ErrorBoundary>
+            { itemList }
+          </ErrorBoundary>
         </React.Fragment>
       );
     }
