@@ -62,7 +62,7 @@ export default class App extends Component {
           <Header />
           <RandomPlanet />
           <Row
-            leftComponent={ starShipDetails }
+            leftComponent={ personsList }
             rightComponent={ personDetails }
           />
         </div>

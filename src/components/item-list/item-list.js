@@ -1,66 +1,34 @@
 import React, { Component } from 'react';
 
-import Spinner from '../spinner';
+import SwapiService from '../../services/swapi';
+
+import { withData } from '../hoc-helpers';
 
 import './item-list.css';
 
-export default class ItemList extends Component {
+const ItemList = ({ onPersonSelected, items, children }) => {
+  const itemElements = items.map((item) => {
+    const { id } = item;
+    const value = children(item);
   
-  state = {
-    persons: null,
-    loading: true
-  };
-  
-  async componentDidMount() {
-    const { getData } = this.props;
-    await this.fetchItems(getData);
-  }
-  
-  fetchItems = async (fetchMethod) => {
-    try {
-      const persons = await fetchMethod();
-      
-      this.setPersons(persons);
-    } catch (e) {
-      console.error('fetchPersons', e);
-    } finally {
-      this.hideLoadingIndicator()
-    }
-  };
-  
-  setPersons = (persons) => this.setState({ persons });
-  hideLoadingIndicator = () => this.setState({ loading: false });
-  
-  render() {
-    const { persons, loading } = this.state;
-    const { onPersonSelected } = this.props;
-    const { children } = this.props;
-    
-    const itemElements = () => {
-      return persons.map((item) => {
-        const { id } = item;
-        const value = children(item);
-        
-        return (
-          <li
-            className='list-group-item'
-            key={ id }
-            onClick={ () => onPersonSelected(id) }
-          >
-            <div>{ value }</div>
-          </li>
-        );
-      })
-    };
-    
-    const elements = !loading ? itemElements() : null;
-    const loadingIndicator = loading ? <Spinner /> : null;
-    
     return (
-      <ul className="item-list list-group">
-        { loadingIndicator }
-        { elements }
-      </ul>
+      <li
+        className='list-group-item'
+        key={ id }
+        onClick={ () => onPersonSelected(id) }
+      >
+        <div>{ value }</div>
+      </li>
     );
-  }
-}
+  });
+  
+  return (
+    <ul className="item-list list-group">
+      { itemElements }
+    </ul>
+  );
+};
+
+const { getAllPeople } = new SwapiService();
+
+export default withData(ItemList, getAllPeople);
