@@ -84,7 +84,11 @@ export default class SwapiService {
     return this._planetMapper(planet);
   };
   
-  getAllStarships = async () => {
+  getPlanetImage = (id) => {
+    return `${ this._imageBaseUrl }planets/${ id }.jpg`;
+  };
+  
+  getAllStarShips = async () => {
     const { results } = await this.getResource('starships');
     return results.map((starsShip) => this._starShipMapper(starsShip));
   };
