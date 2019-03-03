@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 
 import SwapiService from '../../services/swapi';
 
-import ItemList from '../item-list';
+import ErrorBoundary from '../error-boundary';
 import ErrorButton from '../error-button';
-import ErrorIndicator from '../error-indicator';
+import ItemDetails from '../item-details';
+import ItemList from '../item-list';
 import Header from '../header';
+import HeadlineList from '../headline-list';
 import RandomPlanet from '../random-planet';
+import Row from '../row';
 import PeoplePage from '../../pages/people-page';
 
 import './app.css';
@@ -15,52 +18,55 @@ import './app.css';
 export default class App extends Component {
   swapiService = new SwapiService();
   
-  state = {
-    hasError: false
-  };
-  
-  componentDidCatch(error, info) {
-    this.setState({ hasError: true });
-  }
-  
   render() {
-    const { hasError } = this.state;
+    const personsList = (
+      <ItemList getData={ this.swapiService.getAllPeople }>
+        {
+          ({ name, gender, birthYear }) => {
+            return <p>{ `${ name } (${ gender }: ${ birthYear })` }</p>;
+          }
+        }
+      </ItemList>
+    );
     
-    if (hasError) {
-      return <ErrorIndicator />
-    }
+    const {
+      getPerson,
+      getPersonImage,
+      getStarShip,
+      getStarShipImage
+    } = this.swapiService;
+    
+    const personDetails = (
+      <ItemDetails
+        getData={ getPerson }
+        getImageUrl={ getPersonImage }
+        itemId={ 11 }
+      >
+        <HeadlineList />
+      </ItemDetails>
+    );
+    
+    const starShipDetails = (
+      <ItemDetails
+        getData={ getStarShip }
+        getImageUrl={ getStarShipImage }
+        itemId={ 5 }
+      >
+        <HeadlineList />
+      </ItemDetails>
+    );
     
     return (
-      <div className='app-container'>
-        <Header />
-        <RandomPlanet />
-        <div className='row mb2'>
-          <div className='col-md-6 '>
-            <ErrorButton />
-          </div>
+      <ErrorBoundary>
+        <div className='app-container'>
+          <Header />
+          <RandomPlanet />
+          <Row
+            leftComponent={ starShipDetails }
+            rightComponent={ personDetails }
+          />
         </div>
-        <PeoplePage />
-        <div className="people-page row mt-5">
-          <div className="col-md-6">
-            <ItemList
-              onPersonSelected={ this.changeSelectedPerson }
-              getData={ this.swapiService.getAllPlanets }
-            >
-              { (item) => `PLANET: ${ item.name }` }
-            </ItemList>
-          </div>
-        </div>
-        <div className="people-page row mt-5">
-          <div className="col-md-6">
-            <ItemList
-              onPersonSelected={ this.changeSelectedPerson }
-              getData={ this.swapiService.getAllStarships }
-            >
-              { (item) => `STARSHIP: ${ item.name }` }
-            </ItemList>
-          </div>
-        </div>
-      </div>
+      </ErrorBoundary>
     );
   }
 }
