@@ -6,5 +6,4 @@ import {
 export {
   SwapiServiceProvider,
   SwapiServiceConsumer
-}
-
+};

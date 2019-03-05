@@ -2,14 +2,14 @@ import React from 'react';
 
 import './row.css';
 
-const Row = ({ leftComponent, rightComponent }) => {
+const Row = ({ left, right }) => {
   return (
-    <div className="row mb-2">
+    <div className="row mb2">
       <div className="col-md-6">
-        { leftComponent }
+        {left}
       </div>
       <div className="col-md-6">
-        { rightComponent }
+        {right}
       </div>
     </div>
   );

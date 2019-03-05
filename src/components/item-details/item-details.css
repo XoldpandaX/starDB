@@ -1,13 +1,8 @@
 .item-details {
   display: flex;
-  margin-top: 1rem;
   flex-direction: row;
   padding: 1rem;
-}
-
-.item-details--loading {
-  display: flex;
-  justify-content: center;
+  border: 1px solid #444;
 }
 
 .item-details .item-image {
@@ -22,4 +17,8 @@
 
 .item-details .list-group-item .term{
   margin-right: .5rem;
+}
+
+.item-details button {
+  margin-top: 5px;
 }

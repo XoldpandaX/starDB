@@ -1,14 +1,9 @@
 .item-list {
-  height: 377.5px;
-  overflow: auto;
+  margin-bottom: 1rem;
 }
 
 .item-list .list-group-item {
   cursor: pointer;
-}
-
-.list-group-item p {
-  margin-bottom: .2rem;
 }
 
 .item-list .list-group-item:hover {

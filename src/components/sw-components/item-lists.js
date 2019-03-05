@@ -1,55 +1,43 @@
 import React from 'react';
-
 import ItemList from '../item-list';
 import { withData } from '../hoc-helpers';
+import SwapiService from '../../services/swapi-service';
 
-import SwapiService from '../../services/swapi';
+const swapiService = new SwapiService();
 
 const {
   getAllPeople,
-  getAllStarShips,
-  getAllPlanets,
-} = new SwapiService();
+  getAllStarships,
+  getAllPlanets
+} = swapiService;
 
 const withChildFunction = (Wrapped, fn) => {
   return (props) => {
     return (
-      <Wrapped { ...props }>
-        { fn }
+      <Wrapped {...props}>
+        {fn}
       </Wrapped>
-    );
+    )
   };
 };
 
-const personChildren = ({ name, gender, birthYear }) => {
-  return <p>{ `${ name } (${ gender }: ${ birthYear })` }</p>;
-};
+const renderName = ({ name }) => <span>{name}</span>;
+const renderModelAndName = ({ model, name}) => <span>{name} ({model})</span>;
 
-const starShipChildren = ({ name, model, crew }) => {
-  return <p>{ `${ name } (${ model }: ${ crew })` }</p>;
-};
+const PersonList = withData(
+                      withChildFunction(ItemList, renderName),
+                      getAllPeople);
 
-const planetChildren = ({ name, population }) => {
-  return (
-    <React.Fragment>
-      <p>
-        <b>{ `name: ` }</b>
-        <i>{ `${ name }` }</i>
-      </p>
-      <p>
-        <b>{ `population: ` }</b>
-        <i>{ `${ population }` }</i>
-      </p>
-    </React.Fragment>
-  );
-};
+const PlanetList = withData(
+                      withChildFunction(ItemList, renderName),
+                      getAllPlanets);
 
-const PersonList = withData(withChildFunction(ItemList, personChildren), getAllPeople);
-const StarShipList = withData(withChildFunction(ItemList, starShipChildren), getAllStarShips);
-const PlanetList = withData(withChildFunction(ItemList, planetChildren), getAllPlanets);
+const StarshipList = withData(
+                      withChildFunction(ItemList, renderModelAndName),
+                      getAllStarships);
 
 export {
   PersonList,
-  StarShipList,
-  PlanetList
+  PlanetList,
+  StarshipList
 };

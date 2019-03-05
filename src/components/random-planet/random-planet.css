@@ -1,15 +1,8 @@
 .random-planet {
   display: flex;
-  width: 100%;
   padding: 1rem;
-}
-
-.random-planet--loading {
-  justify-content: center;
-}
-
-.random-planet__info {
-  width: 100%;
+  border: 1px solid #444;
+  margin-bottom: 1rem;
 }
 
 .random-planet .planet-image {

@@ -2,14 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2674ad28-1658-4dc5-a7bd-0a5f20d069c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/record/record.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/headline-list/headline-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/record/record.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/headline-list/headline-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/headline-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/record/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-boundary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-button/error-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-button/error-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-button/error-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-button/error-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-indicator/star-of-death.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/details-with-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc-helpers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planet-details/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/record/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/record/record.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/record/record.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/row/row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/spinner/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/spinner/spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starship-details/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sw-components/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sw-components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/swapi-service-context/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/swapi-service-context/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/people-page/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/people-page/people-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/people-page/people-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/planet-page/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/planet-page/planet-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/planet-page/planet-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/swapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+            <state relative-caret-position="148">
+              <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -31,49 +78,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/record/record.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/item-details/item-details.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/sw-components/details.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="150">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/details-with-data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,11 +156,12 @@
         <option value="$PROJECT_DIR$/src/components/sw-components/item-lists.js" />
         <option value="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" />
         <option value="$PROJECT_DIR$/src/components/swapi-service-context/index.js" />
-        <option value="$PROJECT_DIR$/src/components/sw-components/details.js" />
         <option value="$PROJECT_DIR$/src/components/headline-list/headline-list.js" />
         <option value="$PROJECT_DIR$/src/components/headline-list/record.js" />
         <option value="$PROJECT_DIR$/src/components/item-details/item-details.js" />
         <option value="$PROJECT_DIR$/src/components/record/record.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/details.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/app/app.js" />
       </list>
     </option>
@@ -201,6 +213,13 @@
               <item name="star-db" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc-helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="star-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="item-details" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,7 +227,7 @@
               <item name="star-db" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="planet-details" type="462c0819:PsiDirectoryNode" />
+              <item name="spinner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
@@ -241,8 +260,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -250,6 +272,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/pages/planet-page" />
     </key>
   </component>
@@ -288,12 +311,12 @@
       <workItem from="1551611441600" duration="12667000" />
       <workItem from="1551704152672" duration="4535000" />
       <workItem from="1551784678590" duration="372000" />
-      <workItem from="1551785372659" duration="2164000" />
+      <workItem from="1551785372659" duration="5624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52702000" />
+    <option name="totallyTimeSpent" value="56162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="960" height="1056" extended-state="4" />
@@ -301,16 +324,16 @@
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6905504" visible="true" weight="0.24166666" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.6905504" visible="true" weight="0.25520834" />
       <window_info id="Structure" order="3" sideWeight="0.30944964" side_tool="true" weight="0.22766885" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.1199187" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.16361788" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.21599169" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -325,13 +348,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -518,16 +534,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/spinner/spinner.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/spinner/spinner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/error-boundary/error-boundary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -569,9 +575,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/planet-details/planet-details.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/record/record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sw-components/item-lists.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="371">
           <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -579,72 +598,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/planet-details/planet-details.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js">
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/details-with-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-281">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/dummy-swapi-service.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/details-with-data.js">
+    <entry file="file://$PROJECT_DIR$/src/components/spinner/spinner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sw-components/details.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/item-details/item-details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/record/record.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        <state relative-caret-position="-527">
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
