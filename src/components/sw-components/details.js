@@ -14,7 +14,11 @@ const {
   getPlanetImage
 } = new SwapiService();
 
-const PersonDetails = detailsWithData(ItemDetails, getPerson, getPersonImage);
+const PersonDetails = detailsWithData(
+  ItemDetails,
+  getPerson,
+  getPersonImage
+);
 const StarShipDetails = detailsWithData(ItemDetails, getStarShip, getStarShipImage);
 const PlanetDetails = detailsWithData(ItemDetails, getPlanet, getPlanetImage);
 

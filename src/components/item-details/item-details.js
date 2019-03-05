@@ -15,13 +15,15 @@ const ItemDetails = ({ classes, item, imageUrl, children }) => {
           src={ imageUrl }
           alt='item'
         />
-        
         <div className="card-body">
-          {
-            React.Children.map(children, (child) => {
-              return React.cloneElement(child, { item, title });
-            })
-          }
+          <h4>{ title }</h4>
+          <ul className="list-group list-group-flush mb-5">
+            {
+              React.Children.map(children, (child) => {
+                return React.cloneElement(child, { item });
+              })
+            }
+          </ul>
           <ErrorButton/>
         </div>
       </React.Fragment>
