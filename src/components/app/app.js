@@ -45,7 +45,7 @@ export default class App extends Component {
 
     return (
       <ErrorBoundry>
-        <SwapiServiceProvider value={ this.dummySwapiService } >
+        <SwapiServiceProvider value={ this.swapiService } >
           <div className="stardb-app">
             <Header />
             { planet }
