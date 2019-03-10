@@ -1,6 +1,13 @@
 .header {
   margin-top: .5rem;
   padding-left: 10px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header ul {
+  margin-bottom: 0;
+  align-items: center;
 }
 
 .header ul li {
@@ -18,10 +25,19 @@
   text-decoration: none;
 }
 
+
+.header h3 {
+  margin-bottom: 0;
+}
+
 .header h3 a {
   color: white;
 }
 
 .header h3 a:hover {
   color: #00bc8c;
+}
+
+.header button {
+  height: 2.2rem;
 }
