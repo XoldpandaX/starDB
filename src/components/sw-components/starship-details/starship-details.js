@@ -2,7 +2,7 @@ import React from 'react';
 
 import ItemDetails, { Record } from '../../item-details';
 
-import { SwapiServiceConsumer } from '../../swapi-service-context';
+import { withSwapiService } from '../../hoc-helpers';
 
 const records = {
   starShip: [
@@ -28,26 +28,19 @@ const renderRecord = (recordField) => {
   return recordField.map(({ id, ...props }) => <Record key={ id } {...props} />)
 };
 
-const StarshipDetails = ({ itemId }) => {
+const mapMethodsToProps = (swapiService) => ({
+  getData: swapiService.getStarship,
+  getImageUrl: swapiService.getStarshipImage
+});
+
+const StarshipDetails = (props) => {
   const { starShip } = records;
   
   return (
-    <SwapiServiceConsumer>
-      {
-        ({ getStarship, getStarshipImage }) => {
-          return (
-            <ItemDetails
-              itemId={itemId}
-              getData={getStarship}
-              getImageUrl={getStarshipImage}
-            >
-              { renderRecord(starShip) }
-            </ItemDetails>
-          );
-        }
-      }
-    </SwapiServiceConsumer>
+    <ItemDetails { ...props } >
+      { renderRecord(starShip) }
+    </ItemDetails>
   );
 };
 
-export default StarshipDetails;
+export default withSwapiService(StarshipDetails, mapMethodsToProps);

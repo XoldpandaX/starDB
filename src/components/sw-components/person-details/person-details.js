@@ -33,19 +33,19 @@ const renderRecord = (recordField) => {
   return recordField.map(({ id, ...props }) => <Record key={ id } {...props} />)
 };
 
-const PersonDetails = ({ itemId, swapiService }) => {
-  const { getPerson, getPersonImage } = swapiService;
+const mapMethodsToProps = (swapiService) => ({
+  getData: swapiService.getPerson,
+  getImageUrl: swapiService.getPersonImage
+});
+
+const PersonDetails = (props) => {
   const { person } = records;
   
   return (
-    <ItemDetails
-      itemId={ itemId }
-      getData={ getPerson }
-      getImageUrl={ getPersonImage }
-    >
+    <ItemDetails { ...props } >
       { renderRecord(person) }
     </ItemDetails>
   );
 };
 
-export default withSwapiService(PersonDetails);
+export default withSwapiService(PersonDetails, mapMethodsToProps);
