@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import ErrorButton from '../error-button/error-button';
+import Spinner from '../spinner'
 
 import './item-details.css';
 
@@ -63,8 +64,9 @@ export default class ItemDetails extends Component {
   render() {
 
     const { item, image } = this.state;
+    
     if (!item) {
-      return <span>Select a item from a list</span>;
+      return <Spinner />;
     }
 
     const { name } = item;

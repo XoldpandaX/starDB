@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ErrorBoundry from '../error-boundry';
 import Header from '../header';
 import RandomPlanet from '../random-planet';
+import { StarshipDetails } from '../sw-components';
 
 import { PeoplePage, PlanetsPage, StarShipPage } from '../pages';
 
@@ -39,6 +40,11 @@ export default class App extends Component {
               <Header onServiceChange={ this.onServiceChange } />
               <RandomPlanet />
               <Route
+                path='/'
+                render={ () => <h2>Welcome To StarDB</h2> }
+                exact
+              />
+              <Route
                 path='/people'
                 component={ PeoplePage }
               />
@@ -49,6 +55,14 @@ export default class App extends Component {
               <Route
                 path='/star-ships'
                 component={ StarShipPage }
+                exact
+              />
+              <Route
+                path='/star-ships/:id'
+                render={({ match }) => {
+                  const { id } = match.params;
+                  return <StarshipDetails itemId={ id }/>
+                }}
               />
             </div>
           </Router>
