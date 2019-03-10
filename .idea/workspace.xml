@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2674ad28-1658-4dc5-a7bd-0a5f20d069c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc-helpers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sw-components/person-details/person-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/person-details/person-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sw-components/planet-details/planet-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/planet-details/planet-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sw-components/starship-details/starship-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/starship-details/starship-details.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +13,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/sw-components/item-lists.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="56" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -29,48 +47,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/sw-components/person-details/person-details.js">
+        <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-child.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/sw-components/item-lists.js">
+        <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/compose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/sw-components/starship-details/starship-details.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/sw-components/planet-details/planet-details.js">
+        <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+            <state relative-caret-position="120">
+              <caret line="8" column="11" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="11" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +100,7 @@
       <find>mb</find>
       <find>rANDOMpLANE</find>
       <find>renderRecordByData</find>
+      <find>withChildFunction</find>
     </findStrings>
     <replaceStrings>
       <replace>itemElemets</replace>
@@ -108,6 +109,7 @@
       <replace>itemId</replace>
       <replace>item-details</replace>
       <replace>renderRecord</replace>
+      <replace>withChild</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -116,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/error-button/index.js" />
-        <option value="$PROJECT_DIR$/src/components/error-button/error-button.css" />
         <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
         <option value="$PROJECT_DIR$/src/components/error-button/error-button.js" />
         <option value="$PROJECT_DIR$/src/pages/people-page/index.js" />
@@ -151,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/components/sw-components/details.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/starship-details/index.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/index.js" />
-        <option value="$PROJECT_DIR$/src/components/hoc-helpers/index.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.css" />
         <option value="$PROJECT_DIR$/src/components/header/header.js" />
         <option value="$PROJECT_DIR$/src/components/item-details/item-details.js" />
@@ -163,10 +162,13 @@
         <option value="$PROJECT_DIR$/src/components/app/app.js" />
         <option value="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" />
         <option value="$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js" />
-        <option value="$PROJECT_DIR$/src/components/sw-components/item-lists.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/person-details/person-details.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/planet-details/planet-details.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/starship-details/starship-details.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helpers/with-child.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helpers/index.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helpers/compose.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/item-lists.js" />
       </list>
     </option>
   </component>
@@ -322,12 +324,12 @@
       <workItem from="1551785372659" duration="6576000" />
       <workItem from="1551859527567" duration="247000" />
       <workItem from="1552010274113" duration="7675000" />
-      <workItem from="1552187371711" duration="11861000" />
+      <workItem from="1552187371711" duration="13464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76897000" />
+    <option name="totallyTimeSpent" value="78500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="960" height="1056" extended-state="4" />
@@ -359,39 +361,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JavaScript-modules-diagram//home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/pages/people-page/people-page.js</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/node_modules/react/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/src/components/item-list/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/src/components/person-details/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/src/pages/people-page/people-page.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/pages/people-page/people-page.js#Component#16;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#ItemList#50;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#PersonDetails#101;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#React#7;/home/xoldpandax/Документы/projects/pet/training/star-db/src/pages/people-page/people-page.js#people-page.css#156;</node>
-            <node x="" y="">$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts</node>
-            <node x="" y="">Component;</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="261.0" y="200.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/row/row.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -508,16 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,30 +602,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-data.js">
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/planet-details/planet-details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        <state relative-caret-position="675">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sw-components/item-lists.js">
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/starship-details/starship-details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -683,23 +632,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sw-components/planet-details/planet-details.js">
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-child.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="56" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sw-components/starship-details/starship-details.js">
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/compose.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/item-lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
