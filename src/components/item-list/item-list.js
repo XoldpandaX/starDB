@@ -1,6 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './item-list.css';
+
+const defaultProps = {
+  onItemSelected: () => {}
+};
+
+const propTypes = {
+  onItemSelected: PropTypes.func,
+  data: PropTypes.arrayOf(PropTypes.object).isRequired,
+  children: PropTypes.func.isRequired
+};
 
 const ItemList = (props) => {
 
@@ -26,8 +37,7 @@ const ItemList = (props) => {
   );
 };
 
-ItemList.defaultProps = {
-  onItemSelected: () => {}
-};
+ItemList.defaultProps = defaultProps;
+ItemList.propTypes = propTypes;
 
 export default ItemList;
